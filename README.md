@@ -51,4 +51,24 @@ Aqui vai um resumo da <b>estrutura inicial</b> e <b>para que serve cada parte:</
 
  - Onde ficam <b>imagens, fontes, arquivos estáticos</b> que você vai usar no front.
 
+📁 environments/
 
+- Define variáveis de ambiente:
+  - environment.ts: ambiente de <b>desenvolvimento</b>
+  - environment.prod.ts: ambiente de <b>produção</b>
+
+📄 index.html
+
+- HTML base da aplicação. Aqui é onde o Angular vai injetar o seu app.
+
+📄 main.ts
+
+- <b>Ponto de entrada</b> da aplicação Angular.
+- Ele carrega o AppModule e inicializa o Angular.
+
+📄 styles.css ou styles.scss
+
+- Estilo global da aplicação.
+
+ 
+  
